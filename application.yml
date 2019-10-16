@@ -1,6 +1,7 @@
 spring:
     proflies:
-      active: dev
+      active: 
+       - dev
 ---
 spring:
     proflies: dev  #开发环境
