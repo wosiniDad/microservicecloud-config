@@ -1,19 +1,17 @@
 
-    
 spring:
-  profiles:
-    active:
-    - dev
+    proflies:
+      active:
+      - dev
 ---
 spring:
-  profiles: dev     #开发环境
-  application: 
-    name: microservicecloud-config-gysoft-dev
+    proflies: dev  #开发环境
+    application:
+      name: microservicecloud-config-sang-dev
 ---
 spring:
-  profiles: test   #测试环境
-  application: 
-    name: microservicecloud-config-gysoft-test
-#  请保存为UTF-8格式
-
+    proflies: test #测试环境
+    application:
+      name: microservicecloud-config-sang-test
+#请保存为UTF-8格式
 
