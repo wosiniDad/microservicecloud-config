@@ -1,17 +1,16 @@
 
 spring:
-    proflies:
+    profiles:
       active:
       - dev
 ---
 spring:
-    proflies: dev  #开发环境
+    profiles: dev  #开发环境
     application:
       name: microservicecloud-config-sang-dev
 ---
 spring:
-    proflies: test #测试环境
+    profiles: test #测试环境
     application:
       name: microservicecloud-config-sang-test
 #请保存为UTF-8格式
-
